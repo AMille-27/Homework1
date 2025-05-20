@@ -16,7 +16,9 @@ editor_options:
 
 ## How do you view yourself in relation to these two areas?
 
--   I feel like I am neither a Data Scientist or Statistician. But as a math teacher I am finding myself increasing working with numbers and metrics. Data Science seems to be more of what resonates with me on a data to day basis. \## Chunk to determine the class, type, and structure of the object y
+-   I feel like I am neither a Data Scientist or Statistician. But as a math teacher I am finding myself increasing working with numbers and metrics. Data Science seems to be more of what resonates with me on a data to day basis.
+
+## Chunk to determine the class, type, and structure of the object y
 
 ```{r}
 y<-density(iris$Petal.Width)
@@ -29,30 +31,9 @@ class(y)
 is.vector(y)
 ```
 
-## Chunk that use the plot function of y and hide R code with echo
+## Chunk that uses the plot function of y and hides R code with echo
 
 ```{r}
 #| echo: false
 plot(y)
 ```
-
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).

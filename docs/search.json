@@ -25,27 +25,20 @@
     "href": "About Data Science (step 3).html#how-do-you-view-yourself-in-relation-to-these-two-areas",
     "title": "About Data Science",
     "section": "How do you view yourself in relation to these two areas?",
-    "text": "How do you view yourself in relation to these two areas?\n\nI feel like I am neither a Data Scientist or Statistician. But as a math teacher I am finding myself increasing working with numbers and metrics. Data Science seems to be more of what resonates with me on a data to day basis. ## Chunk to determine the class, type, and structure of the object y\n\n\ny&lt;-density(iris$Petal.Width)\n\n\ntypeof (y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\nclass(y)\n\n[1] \"density\"\n\nis.vector(y)\n\n[1] FALSE"
+    "text": "How do you view yourself in relation to these two areas?\n\nI feel like I am neither a Data Scientist or Statistician. But as a math teacher I am finding myself increasing working with numbers and metrics. Data Science seems to be more of what resonates with me on a data to day basis."
   },
   {
-    "objectID": "About Data Science (step 3).html#chunk-that-use-the-plot-function-of-y-and-hide-r-code-with-echo",
-    "href": "About Data Science (step 3).html#chunk-that-use-the-plot-function-of-y-and-hide-r-code-with-echo",
+    "objectID": "About Data Science (step 3).html#chunk-to-determine-the-class-type-and-structure-of-the-object-y",
+    "href": "About Data Science (step 3).html#chunk-to-determine-the-class-type-and-structure-of-the-object-y",
     "title": "About Data Science",
-    "section": "Chunk that use the plot function of y and hide R code with echo",
-    "text": "Chunk that use the plot function of y and hide R code with echo"
+    "section": "Chunk to determine the class, type, and structure of the object y",
+    "text": "Chunk to determine the class, type, and structure of the object y\n\ny&lt;-density(iris$Petal.Width)\n\n\ntypeof (y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\nclass(y)\n\n[1] \"density\"\n\nis.vector(y)\n\n[1] FALSE"
   },
   {
-    "objectID": "About Data Science (step 3).html#quarto",
-    "href": "About Data Science (step 3).html#quarto",
+    "objectID": "About Data Science (step 3).html#chunk-that-uses-the-plot-function-of-y-and-hides-r-code-with-echo",
+    "href": "About Data Science (step 3).html#chunk-that-uses-the-plot-function-of-y-and-hides-r-code-with-echo",
     "title": "About Data Science",
-    "section": "Quarto",
-    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
-  },
-  {
-    "objectID": "About Data Science (step 3).html#running-code",
-    "href": "About Data Science (step 3).html#running-code",
-    "title": "About Data Science",
-    "section": "Running Code",
-    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+    "section": "Chunk that uses the plot function of y and hides R code with echo",
+    "text": "Chunk that uses the plot function of y and hides R code with echo"
   }
 ]
